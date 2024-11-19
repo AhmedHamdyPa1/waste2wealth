@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waste2Wealth</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 id="project-title">Waste2Wealth</h1>
+        <p id="project-description">
+          تحويل النفايات إلى ثروة مستدامة من أجل المستقبل
+        </p>
+        <nav>
+          <ul>
+            <li><a href="#about">عن المشروع</a></li>
+            <li><a href="#how-it-works">آلية العمل</a></li>
+            <li><a href="#research">الأبحاث</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="language-switcher">
+        <button class="lang-btn" onclick="window.location.href='index.html'">
+          English
+        </button>
+        <button class="lang-btn active-lang">العربية</button>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>عن المشروع</h2>
+        <p>
+          Waste2Wealth هو مشروع مبتكر يهدف إلى إعادة تدوير النفايات العضوية
+          والمعدنية لإنتاج مواد مستدامة لتحسين التربة واستصلاح الأراضي
+          الصحراوية.
+        </p>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="container">
+        <h2>آلية العمل</h2>
+        <p>
+          نعتمد على دمج النفايات العضوية مثل بقايا الطعام مع النفايات المعدنية
+          مثل غبار الخرسانة. تتم معالجة هذه المواد باستخدام التحلل الحيوي من
+          خلال الكائنات الدقيقة مثل البكتيريا والفطريات لإطلاق العناصر الغذائية
+          اللازمة.
+        </p>
+        <nav>
+          <a
+            href="https://www.usu.edu/herbarium/education/fun-facts-about-fungi/decomposition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            اقرأ المزيد ...
+          </a>
+        </nav>
+        <img
+          src="images/decomposition.png"
+          alt="آلية العمل"
+          class="responsive-img"
+        />
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="container">
+        <h2>الأبحاث والأثر</h2>
+        <p>
+          تركز أبحاثنا على تحسين خصوبة التربة وزيادة قدرتها على الاحتفاظ بالمياه
+          باستخدام النفايات العضوية والمعدنية، وهو أمر بالغ الأهمية للزراعة في
+          المناطق الصحراوية.
+        </p>
+        <img
+          src="images/research-graph.png"
+          alt="بحث&التأثير"
+          class="responsive-img"
+        />
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>تواصل معنا</h2>
+        <form>
+          <label for="name">الاسم:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">البريد الإلكتروني:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">الرسالة:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">إرسال الرسالة</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="donate">
+      <div class="container">
+        <h2>دعم Waste2Wealth</h2>
+        <p>
+          ساهم معنا في تحويل النفايات إلى ثروة! تبرعك يساعدنا في توسيع مهمتنا
+          لإيجاد حلول مستدامة.
+        </p>
+        <button
+          id="donate-btn"
+          onclick="window.location.href='https://www.example.com/donate'"
+        >
+          تبرع الآن
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2024 Waste2Wealth. جميع الحقوق محفوظة.</p>
+    </footer>
+  </body>
+</html>

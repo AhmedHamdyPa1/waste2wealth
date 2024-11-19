@@ -1,0 +1,191 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f0f4f0; /* Light green */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+}
+
+/* Ensure all content is centered within the container */
+.container {
+  width: 1200;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; /* Centers text inside sections */
+}
+
+/* Header styles */
+header {
+  background: url("images/header.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  width: 100%; /* Ensures header spans the full width of the screen */
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+/* Navigation styles for underlining and background */
+header nav ul li a {
+  color: white;
+  background-color: rgba(
+    76,
+    175,
+    80,
+    0.8
+  ); /* Semi-transparent green background */
+  padding: 5px 10px; /* Add padding around the links */
+  border-radius: 5px; /* Rounded corners for background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effects */
+}
+
+header nav ul li a:hover {
+  background-color: #4caf50; /* Solid green on hover */
+  color: white; /* Ensure text stays white */
+}
+
+.language-switcher {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.language-switcher .lang-btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  color: #4caf50; /* Green */
+  border-radius: 5px;
+}
+
+.language-switcher .lang-btn.active-lang {
+  background: #8bc34a; /* Bright green */
+  color: white;
+}
+
+/* Section styles */
+section {
+  padding: 30px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  color: #4caf50; /* Green */
+}
+
+section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+section img {
+  width: 100%; /* Ensures the image always takes up the full width of its container */
+  max-width: 100%; /* Prevents the image from exceeding its original size */
+  height: auto; /* Maintains the aspect ratio */
+  border: 1px solid #4caf50; /* Adds a green border */
+  border-radius: 5px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  margin: 20px 0; /* Centers the image vertically within the section */
+}
+
+.responsive-img {
+  width: 100%; /* Ensures the image scales to fit its container */
+  max-width: 100%; /* Prevents oversizing */
+  margin: 0 auto; /* Centers the image horizontally */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  background: #4caf50; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #388e3c; /* Darker green */
+}
+
+/* Donate button */
+#donate-btn {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#donate-btn:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Footer */
+footer {
+  background: #4caf50; /* Green */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%; /* Footer spans full width */
+}
+
+footer p {
+  margin: 0;
+}

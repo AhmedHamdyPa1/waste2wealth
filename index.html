@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waste2Wealth</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 id="project-title">Waste2Wealth</h1>
+        <p id="project-description">
+          Turning Waste Into Sustainable Wealth for the Future
+        </p>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="language-switcher">
+        <button class="lang-btn active-lang">English</button>
+        <button class="lang-btn" onclick="window.location.href='index-ar.html'">
+          العربية
+        </button>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Waste2Wealth</h2>
+        <p>
+          Waste2Wealth is an innovative project aimed at recycling organic and
+          mineral waste to produce sustainable soil enhancement materials for
+          desert reclamation and agriculture.
+        </p>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <p>
+          Our approach combines organic waste (such as food scraps and plant
+          residues) with mineral waste (like volcanic ash or concrete dust).
+          These materials are processed through biological decomposition, using
+          microorganisms such as bacteria and fungi, which break down the
+          organic matter and release nutrients into the soil.
+        </p>
+        <nav class="read more">
+          <a
+            href="https://www.usu.edu/herbarium/education/fun-facts-about-fungi/decomposition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read More ...
+          </a>
+        </nav>
+        <img
+          src="images/decomposition.png"
+          alt="How Waste2Wealth Works"
+          class="responsive-img"
+        />
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="container">
+        <h2>Research & Impact</h2>
+        <p>
+          Our research focuses on using both organic and mineral waste to
+          enhance soil fertility and improve water retention, crucial for desert
+          agriculture. Studies show that such methods can greatly reduce the
+          cost and environmental impact of traditional agricultural chemicals.
+        </p>
+        <img
+          src="images/research-graph.png"
+          alt="Research Graph"
+          class="responsive-img"
+        />
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="donate">
+      <div class="container">
+        <h2>Support Waste2Wealth</h2>
+        <p>
+          Join us in turning waste into wealth! Your donation helps us expand
+          our mission to create sustainable solutions.
+        </p>
+        <button
+          id="donate-btn"
+          onclick="window.location.href='https://www.example.com/donate'"
+        >
+          Donate Now
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2024 Waste2Wealth. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
